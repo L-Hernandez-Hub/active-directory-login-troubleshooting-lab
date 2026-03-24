@@ -13,8 +13,7 @@ Simulate and troubleshoot a real-world IT support ticket where a domain user is 
 
 ---
 
-
-### Ticket
+## Ticket
 User reports inability to sign in to domain account on Windows 11 machine. Support ticket has been received.
 
 ![Screenshot 1](1-ticket.jpeg) 
