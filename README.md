@@ -9,12 +9,13 @@ Simulate and troubleshoot a real-world IT support ticket where a domain user is 
 - Windows Server 2019 Virtual Machine
 - Windows 11 Pro Virtual Machine  
 - Active Directory Domain Services (AD DS)  
-- Active Directory Users and Computers (ADUC
+- Active Directory Users and Computers (ADUC)
 
 ---
 
+
 ### Ticket
-User reports inability to sign in to domain account on Windows 11 machine. Ticket has been received.
+User reports inability to sign in to domain account on Windows 11 machine. Support ticket has been received.
 
 ![Screenshot 1](1-ticket.jpeg) 
 
