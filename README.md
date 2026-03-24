@@ -3,18 +3,20 @@
 ## Objective
 Simulate and troubleshoot a real-world IT support ticket where a domain user is unable to sign in to a Windows 11 machine. Identify the root cause using Active Directory and restore user access.
 
-### Ticket
-User reports inability to sign in to domain account on Windows 11 machine. Ticket has been received.
-
-![Screenshot 1](1-ticket.png)
-
 ---
 
 ## Lab Environment
-User: John Doe (HR)  
-Machine: Windows 11 Pro VM  
-Domain: homelab-domain  
-Tools Used: Active Directory Users and Computers, Windows 11, Command Prompt  
+- Windows Server 2019 Virtual Machine
+- Windows 11 Pro Virtual Machine  
+- Active Directory Domain Services (AD DS)  
+- Active Directory Users and Computers (ADUC
+
+---
+
+### Ticket
+User reports inability to sign in to domain account on Windows 11 machine. Ticket has been received.
+
+![Screenshot 1](1-ticket.jpeg) 
 
 ---
 
@@ -37,6 +39,8 @@ Opened Active Directory Users and Computers on the domain controller and located
 
 ![Screenshot 3](3-account-disabled.png)
 
+---
+
 ### 4. Established a Plan of Action and Implemented the Solution
 Re-enabled the user's account in Active Directory by unchecking "Account is disabled" option.
 
@@ -58,7 +62,7 @@ whoami
 ### 6. Documented Findings, Actions and Outcomes
 Documented the issue, troubleshooting steps, resolutions and verification results in the support ticket for future reference and auditing.
 
-![Screenshot 6](6-closed-ticket.png)
+![Screenshot 6](6-closed-ticket.jpeg)
 
 ---
 
