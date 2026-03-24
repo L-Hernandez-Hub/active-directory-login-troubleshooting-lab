@@ -51,6 +51,8 @@ Re-enabled the user's account in Active Directory by unchecking "Account is disa
 ### 5. Verified Full System Functionality
 Verified by successfully logging into the Windows 11 machine using the domain account.  
 Confirmed the logged-in user using the `whoami` command.
+
+**Command Used**
 ```
 whoami
 ```
@@ -60,7 +62,7 @@ whoami
 ---
 
 ### 6. Documented Findings, Actions and Outcomes
-Documented the issue, troubleshooting steps, resolutions and verification results in the support ticket for future reference and auditing.
+Documented the issue, troubleshooting steps, resolutions and verification results in the support ticket for future reference and auditing. Ticket closed.
 
 ![Screenshot 6](6-closed-ticket.jpeg)
 
