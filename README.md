@@ -16,7 +16,7 @@ Simulate and troubleshoot a real-world IT support ticket where a domain user is 
 ## Ticket
 User reports inability to sign in to domain account on Windows 11 machine. Support ticket has been received.
 
-![Screenshot 1](1-ticket.jpeg) 
+![Screenshot 1](Screenshots/1-ticket.jpeg) 
 
 ---
 
@@ -25,7 +25,7 @@ User reports inability to sign in to domain account on Windows 11 machine. Suppo
 ### 1. Identified the Problem 
 Attempted to log in to the Windows 11 machine using the user’s domain credentials and received an error indicating the account was disabled.
 
-![Screenshot 2](2-login-error.png)
+![Screenshot 2](Screenshots/2-login-error.png)
 
 ---
 
@@ -37,14 +37,14 @@ Reviewed the error message and formed a hypothesis that the account may be disab
 ### 3. Tested The Theory
 Opened Active Directory Users and Computers on the domain controller and located the user account. Opened the user account properties and confirmed that the “Account is disabled” was checked.
 
-![Screenshot 3](3-account-disabled.png)
+![Screenshot 3](Screenshots/3-account-disabled.png)
 
 ---
 
 ### 4. Established a Plan of Action and Implemented the Solution
 Re-enabled the user's account in Active Directory by unchecking "Account is disabled" option.
 
-![Screenshot 4](4-account-enabled.png)
+![Screenshot 4](Screenshots/4-account-enabled.png)
 
 ---
 
@@ -57,14 +57,14 @@ Confirmed the logged-in user using the `whoami` command.
 whoami
 ```
 
-![Screenshot 5](5-verification.png)
+![Screenshot 5](Screenshots/5-verification.png)
 
 ---
 
 ### 6. Documented Findings, Actions and Outcomes
 Documented the issue, troubleshooting steps, resolutions and verification results in the support ticket for future reference and auditing. Ticket closed.
 
-![Screenshot 6](6-closed-ticket.jpeg)
+![Screenshot 6](Screenshots/6-closed-ticket.jpeg)
 
 ---
 
