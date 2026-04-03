@@ -7,7 +7,7 @@ Simulate and troubleshoot a real-world IT support ticket where a domain user is 
 
 ## Lab Environment
 - Windows Server 2019 Virtual Machine
-- Windows 11 Pro Virtual Machine  
+- Windows 11 Pro Virtual Machine (domian-joined client)
 - Active Directory Domain Services (AD DS)  
 - Active Directory Users and Computers (ADUC)
 
@@ -49,8 +49,7 @@ Re-enabled the user's account in Active Directory by unchecking "Account is disa
 ---
 
 ### 5. Verified Full System Functionality
-Verified by successfully logging into the Windows 11 machine using the domain account.  
-Confirmed the logged-in user using the `whoami` command.
+Verified by successfully logging into the Windows 11 machine using the domain account. Confirmed the logged-in user using the `whoami` command.
 
 **Command Used**
 ```
